@@ -637,5 +637,106 @@ img {
 
 /* ---------------price-table----------- */
 /* ---------------clients-say----------- */
+.clients {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 
+.review-list-item {
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    padding: 26px 28px;
+    width: calc((100% - 128px) / 3);
+
+}
+.clients-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.78;
+    letter-spacing: 0.01em;
+    color: #22343d;
+    margin-bottom: 10px;
+}
+.clients-description {
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: 0.01em;
+    color: #22343d;
+    max-width: 537px;
+    margin-bottom: 40px;
+}
+
+.prs-wrap {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+.review-list {
+    display: flex;
+    gap: 64px;
+}
+
+.review-text {
+    line-height: 1.75;
+    letter-spacing: 0.01em;
+    color: #737373;
+    margin-bottom: 16px; 
+}
+.rating-icon {
+    margin-bottom: 16px;
+    fill: #f3cd03;
+}
+
+.reviewer-name {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+    color: #02897a;
+}
+
+.reviewer-occupation {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.71429;
+    letter-spacing: 0.01em;
+    color: #252b42;
+}
 /* ---------------clients-say----------- */
+/* ---------------footer----------- */
+ .cta-fiels-text {
+}
+.cta-field-img {
+}
+.cta-field-btn {
+}
+.logo {
+}
+.logo-text {
+}
+.soc-list {
+}
+.soc-list-item {
+}
+.list-header {
+}
+.resource-list {
+}
+.list {
+}
+.item {
+}
+.form-header {
+}
+.tel-input {
+}
+.sign-btn {
+}
+.copyright {
+}
+/* ---------------footer----------- */
