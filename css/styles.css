@@ -27,6 +27,8 @@ a {
 
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .container {
@@ -709,34 +711,162 @@ img {
 }
 /* ---------------clients-say----------- */
 /* ---------------footer----------- */
- .cta-fiels-text {
+footer .container {
+    padding-bottom: 40px;
 }
-.cta-field-img {
+.cta-field {
+    max-width: 968px;
+    margin: 0 auto;
+    display: flex;
+    background: #02897a;
+    border-radius: 32px;
+    margin-bottom: 100px;
+    padding-right: 36px;
 }
+
+.text-btn-wrap {
+   padding-top: 49px;
+   padding-left: 51px;
+}
+
+.cta-fiels-text {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 151%;
+    color: #fff;
+    margin-bottom: 46px;
+}
+
 .cta-field-btn {
+    border-radius: 8px;
+    width: 150px;
+    height: 50px;
+    background: #fff;
+    border: none;
 }
-.logo {
+
+.cta-field-btn:hover {
+    box-shadow: 2px 2px 10px 0 rgba(23, 58, 86, 0.6);
 }
-.logo-text {
+
+.cta-field-btn span {
+    font-weight: 600;
+    font-size: 20px;
+    color: #02897a;
+}
+footer .logo {
+    margin-bottom: 18px;
+}
+
+footer .logo-text {
+    padding: 0;
 }
 .soc-list {
+    display: flex;
+    gap: 16px;
 }
 .soc-list-item {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:  #edfffc;
+    position:relative
+}
+
+.soc-icon {
+    stroke-width: 2px;
+    stroke: #02897a;
+    fill: none;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
 }
 .list-header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #22343d;
+    margin-bottom: 8px;
+}
+
+.bottom-wrap {
+    display: flex;
+}
+.resource-wrap {
+    margin-left: 146px;
+}
+.legal-wrap {
+    margin-left: 129px;
+}
+.form {
+    margin-left: 83px;
+    position: relative;
 }
 .resource-list {
 }
-.list {
+.list-item {
+
 }
-.item {
+
+.list-item-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2.1875;
+    color: #22343d;
 }
+
 .form-header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #22343d;
+    width: 280px;
+    margin-bottom: 30px;
 }
 .tel-input {
+    width: 325px;
+    height: 48px;
+    margin-bottom: 25px;
+    border: 1px solid #bcd0e5;
+    border-radius: 4px;
+    padding-left: 42px;
 }
-.sign-btn {
+
+.tel-input::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #02897a;    
+}
+.input-icon {
+    fill: #02897a;
+    position: absolute;
+    top: 101px;
+    left: 12px;
+}
+
+footer .sign-btn {
+    display: block;
+    border-radius: 4px;
+    width: 131px;
+    height: 39px;
+    background-color: #02897a;
+    margin-bottom: 8px;
+}
+
+.sign-btn span {
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;    
 }
 .copyright {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+    color: #22343d;
+    padding-left: 350px;
+    
 }
 /* ---------------footer----------- */
